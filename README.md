@@ -1,8 +1,9 @@
-# Chrome Extension React + TypeScript + TailWind CSS Starter
+# Tailwind Css to raw CSS
 
-Chrome Extension, React + TypeScript + TailWind CSS
+A chrome extension for Github that lets you select tailwind css classes and converts into raw css. 
 
-Initial React + Typescript starter (without Tailwind) : [https://github.com/chibat/chrome-extension-typescript-starter](https://github.com/chibat/chrome-extension-typescript-starter)
+Resource : 
+[https://github.com/Devzstudio/tailwind_to_css](https://github.com/Devzstudio/tailwind_to_css)
 
 ## Prerequisites
 
