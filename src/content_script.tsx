@@ -47,15 +47,15 @@ window.addEventListener("mouseup", (e: any) => {
     selectedtext.length > 0 &&
     !(selectedtext.trim() == "")
   ) {
-    app!.style.left = e.clientX.toString + "px";
+    app!.style.left = e.clientX + 50 + window.scrollY + "px";
     app!.style.top = (e.clientY - 30 + window.scrollY).toString + "px";
     app!.style.display = "block";
 
     window.document.documentElement.appendChild(app!);
     ReactDOM.render(
       <HoverPopup
-        leftDir={e.clientX + window.scrollX + "px"}
-        topDir={e.clientY + window.scrollY - 30 + "px"}
+        leftDir={e.clientX + window.scrollX + 50 + "px"}
+        topDir={e.clientY + window.scrollY - 50 + "px"}
         convertedClass={convertedClass}
       />,
       document.getElementById("my-extension-root")

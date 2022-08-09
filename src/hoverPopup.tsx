@@ -26,7 +26,7 @@ const HoverPopup = (props: directionProps) => {
       }}
       className=" flex flex-col z-50 items-center bg-black h-fit w-60"
     >
-      <p className="text-white text-xs">{convertedTailwind}</p>
+      <p className="text-white text-xs text-left">{convertedTailwind}</p>
     </div>
   );
 };
